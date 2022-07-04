@@ -2,9 +2,9 @@ import React, {useState} from 'react';
 import {nanoid} from "nanoid";
 import Task from "../../components/ToDoComponents/Task/Task";
 import AddTaskForm from "../../components/ToDoComponents/AddTaskForm/AddTaskForm";
-import './ToDo.css';
+import './ToDoApp.css';
 
-const ToDo = () => {
+const ToDoApp = () => {
   const [tasks, setTasks] = useState([
     {title: 'Buy milk', id: nanoid(), isDone: false},
     {title: 'Walk with dog', id: nanoid(), isDone: false},
@@ -72,4 +72,4 @@ const ToDo = () => {
   );
 };
 
-export default ToDo;
+export default ToDoApp;

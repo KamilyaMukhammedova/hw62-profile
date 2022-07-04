@@ -1,0 +1,17 @@
+.Container {
+    max-width: 1200px;
+    padding: 70px 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Container-inner {
+    width: 45%;
+    padding: 15px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
