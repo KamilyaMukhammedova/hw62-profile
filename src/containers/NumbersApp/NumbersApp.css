@@ -1,0 +1,11 @@
+.circlesArea {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.btnArea {
+    width: 300px;
+    margin: 0 auto;
+}

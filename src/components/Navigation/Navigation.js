@@ -22,7 +22,9 @@ const Navigation = () => {
               </button>
             </li>
             <li className="nav-item">
-              <button type="button" className="btn btn-outline-light mr-3 mb-2"> </button>
+              <button type="button" className="btn btn-outline-light mr-3 mb-2">
+                <NavLink to="/numbers" className="navLink">Numbers App</NavLink>
+              </button>
             </li>
           </ul>
         </div>

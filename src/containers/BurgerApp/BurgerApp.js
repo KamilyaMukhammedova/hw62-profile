@@ -7,8 +7,8 @@ import baconImage from '../../assets/Bacon.png';
 import Ingredients from "../../components/BurgerComponents/Ingredients/Ingredients";
 import Price from "../../components/BurgerComponents/Price/Price";
 import Burger from "../../components/BurgerComponents/Burger/Burger";
-import './BurgerApp.css';
 import Filling from "../../components/BurgerComponents/Filling/Filling";
+import './BurgerApp.css';
 
 const INGREDIENTS = [
   {name: 'Meat', price: 50, image: meatImage},
