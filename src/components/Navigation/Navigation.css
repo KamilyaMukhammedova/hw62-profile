@@ -2,3 +2,8 @@
     text-decoration: none;
     color: inherit;
 }
+
+.navLink:hover {
+    text-decoration: none;
+    color: #03bfbc;
+}

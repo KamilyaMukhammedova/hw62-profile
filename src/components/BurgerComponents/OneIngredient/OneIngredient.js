@@ -1,4 +1,3 @@
-import React from 'react';
 import './OneIngredient.css';
 
 const OneIngredient = (props) => {

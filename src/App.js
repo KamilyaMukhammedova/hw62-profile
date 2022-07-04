@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation/Navigation";
 import ToDoApp from "./containers/ToDoApp/ToDoApp";
 import BurgerApp from "./containers/BurgerApp/BurgerApp";
 import NumbersApp from "./containers/NumbersApp/NumbersApp";
+import Message from "./containers/Message/Message";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/todo" exact component={ToDoApp}/>
         <Route path="/burger" exact component={BurgerApp}/>
         <Route path="/numbers" exact component={NumbersApp}/>
+        <Route path="/message" exact component={Message}/>
         <Route render={() => <h1 className="text-white p-5">Page is not found !</h1>}/>
       </Switch>
     </BrowserRouter>

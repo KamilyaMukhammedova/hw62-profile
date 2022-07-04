@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import {nanoid} from "nanoid";
 import meatImage from '../../assets/Meat.png';
 import cheeseImage from '../../assets/Cheese.png';
@@ -29,7 +29,7 @@ const BurgerApp = () => {
 
   const addIngredient = ingId => {
     const ingredientsCopy = ingredients.map((ing, index) => {
-      if(ing.id === ingId) {
+      if (ing.id === ingId) {
         setPrice(prev => prev + INGREDIENTS[index].price);
         return {
           ...ing,
@@ -43,7 +43,7 @@ const BurgerApp = () => {
 
   const removeIngredient = ingId => {
     const ingredientsCopy = ingredients.map((ing, index) => {
-      if(ing.id === ingId) {
+      if (ing.id === ingId) {
         setPrice(prev => prev - INGREDIENTS[index].price);
         return {
           ...ing,
@@ -57,7 +57,7 @@ const BurgerApp = () => {
 
   const removeAllIngredients = ingId => {
     const ingredientsCopy = ingredients.map((ing, index) => {
-      if(ing.id === ingId) {
+      if (ing.id === ingId) {
         setPrice(prev => prev - (INGREDIENTS[index].price * ing.count));
         return {
           ...ing,
@@ -71,8 +71,8 @@ const BurgerApp = () => {
 
   const getFilling = () => {
     const fillingArray = [];
-    for(let i = 0; i < ingredients.length; i++) {
-      for(let j = 0; j < ingredients[i].count; j++) {
+    for (let i = 0; i < ingredients.length; i++) {
+      for (let j = 0; j < ingredients[i].count; j++) {
         fillingArray.push(ingredients[i].name);
       }
     }

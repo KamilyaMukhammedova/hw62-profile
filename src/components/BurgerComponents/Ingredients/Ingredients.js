@@ -1,4 +1,3 @@
-import React from 'react';
 import OneIngredient from "../OneIngredient/OneIngredient";
 
 const Ingredients = (props) => {

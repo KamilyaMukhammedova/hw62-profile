@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import {Component} from 'react';
 import Circle from "../../components/NumbersComponents/Circle/Circle";
 import './NumbersApp.css';
 
