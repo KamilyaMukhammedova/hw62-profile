@@ -5,7 +5,7 @@
     padding-top: 100px;
 }
 
-.container {
+.profile-container {
     user-select: none;
     margin: 0 auto;
     background: #231e39;
@@ -70,7 +70,7 @@ button {
     transition: .5s;
 }
 
-.container i {
+.profile-container i {
     padding-left: 20px;
     font-size: 20px;
     margin-bottom: 20px;
@@ -78,6 +78,6 @@ button {
     transition: .5s;
 }
 
-.container i:hover {
+.profile-container i:hover {
     color: #03bfbc;
 }

@@ -1,20 +1,26 @@
 import React from 'react';
+import {NavLink} from "react-router-dom";
+import './Navigation.css';
 
 const Navigation = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-info navbar-dark">
-        <a className="navbar-brand" href="#">Profile</a>
-        <div className="collapse navbar-collapse">
-          <ul className="navbar-nav">
+      <nav className="navbar navbar-expand-lg bg-info">
+        <button type="button" className="btn btn-outline-light mr-4 mb-2">
+          <NavLink to="/" className="navLink">Profile</NavLink>
+        </button>
+        <div>
+          <ul className="nav">
             <li className="nav-item">
-              <a className="nav-link" href="#">Home</a>
+              <button type="button" className="btn btn-outline-light mr-3 mb-2">
+                <NavLink to="/todo" className="navLink">To Do App</NavLink>
+              </button>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Features</a>
+              <button type="button" className="btn btn-outline-light mr-3 mb-2">Burger App</button>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Pricing</a>
+              <button type="button" className="btn btn-outline-light mr-3 mb-2"> </button>
             </li>
           </ul>
         </div>

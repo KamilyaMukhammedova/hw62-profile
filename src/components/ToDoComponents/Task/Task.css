@@ -1,0 +1,16 @@
+.task {
+    max-width: 450px;
+    height: 20px;
+    padding: 30px 15px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #03bfbc;
+    color: white;
+}
+
+.checkboxInput {
+    margin-right: 15px;
+}
